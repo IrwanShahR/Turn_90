@@ -1,5 +1,5 @@
 maqueenPlusV2.I2CInit()
-basic.forever(function () {
+basic.forever(function on_forever() {
     maqueenPlusV2.controlMotor(maqueenPlusV2.MyEnumMotor.LeftMotor, maqueenPlusV2.MyEnumDir.Forward, 30)
     maqueenPlusV2.controlMotor(maqueenPlusV2.MyEnumMotor.RightMotor, maqueenPlusV2.MyEnumDir.Forward, 28)
     basic.pause(5000)
